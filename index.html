@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcane Whispers - A Wizard's Truth</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e0e0e0;
+            line-height: 1.6;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        /* Hidden puzzle text */
+        .hidden-message {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-15deg);
+            font-size: 120px;
+            font-weight: bold;
+            color: #1a1a2e;
+            opacity: 0.95;
+            z-index: 0;
+            pointer-events: none;
+            user-select: text;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            position: relative;
+            z-index: 1;
+            background: rgba(22, 33, 62, 0.7);
+            backdrop-filter: blur(10px);
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #4a5568;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #a78bfa;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .subtitle {
+            font-style: italic;
+            color: #9ca3af;
+            font-size: 1.1em;
+        }
+
+        .blog-post {
+            margin-bottom: 40px;
+            padding: 30px;
+            background: rgba(26, 26, 46, 0.6);
+            border-left: 4px solid #8b5cf6;
+            border-radius: 5px;
+        }
+
+        .blog-post h2 {
+            color: #c4b5fd;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        .blog-post p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .date {
+            color: #6b7280;
+            font-size: 0.9em;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .emphasis {
+            color: #fbbf24;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #6b7280;
+            font-size: 0.9em;
+            border-top: 1px solid #4a5568;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hidden-message">FIND LEZO</div>
+
+    <div class="container">
+        <header>
+            <h1>⚡ WIZARD THOUGHTS ⚡</h1>
+            <p class="subtitle">definitely not a government critic just a wizard doing wizard things</p>
+        </header>
+
+        <article class="blog-post">
+            <h2>why is my scroll acting weird again</h2>
+            <p class="date">tuesday??? maybe wednesday</p>
+            <p>
+                ok so LISTEN. the <span class="emphasis">Church</span> people keep saying they talk to the gods right???
+                the whole
+                Pantheon of Embrace thing. but like. HAVE YOU SEEN THEM ACTUALLY DO IT. because i haven't. i've been
+                doing magic
+                for like 40 years and i've never seen a single priest cast a real spell. suspicious much???
+            </p>
+            <p>
+                also there's NINE MILLION PEOPLE HERE. nine. million. in Vyrodin. and somehow the fancy districts have
+                like
+                zero crime and my neighborhood had THREE robberies last week. the math isn't mathing. they say it's an
+                <span class="emphasis">open secret</span> that the Church is corrupt but like if everyone knows then why
+                are we
+                pretending??? make it make sense
+            </p>
+            <p>
+                AND ANOTHER THING. where did the Heroes of Union go??? Archmage Minoph just FOUNDED THIS WHOLE CITY and
+                then
+                POOF gone. all of them. <span class="emphasis">Missing</span>. right when the Church took over.
+                that's not weird to anyone else???? just me???? ok cool cool cool
+            </p>
+        </article>
+
+        <article class="blog-post">
+            <h2>the scroll situation is getting out of hand</h2>
+            <p class="date">definitely thursday now</p>
+            <p>
+                so the M.A.W. right. the Mass Arcane Web. AMAZING invention. even people with zero magic can use their
+                Arcslates
+                to message anyone anywhere. revolutionary. game changing. i love it
+            </p>
+            <p>
+                BUT. and this is a big but. we have <span class="emphasis">free communication</span> but like... do we
+                though???
+                because my friend Torvik said something about the Church being "financially questionable" on his scroll
+                last month
+                and now his Arcslate "mysteriously broke" and he can't afford a new one. WEIRD RIGHT
+            </p>
+            <p>
+                they're watching. i know they're watching. every message. every M.A.W. connection. they say it's for
+                "peace"
+                because Ohsa had all those conflicts for centuries and now we finally have peace. but is it really peace
+                if
+                you're scared to say what you think??? asking for a friend. that friend is me. i'm asking for me
+            </p>
+        </article>
+
+        <article class="blog-post">
+            <h2>THOUSANDS OF YEARS FOR THIS???</h2>
+            <p class="date">lost track of time honestly</p>
+            <p>
+                ok so Vyrodin is like <span class="emphasis">thousands of years old</span>. THOUSANDS. that's a lot of
+                years.
+                i can barely remember what i had for breakfast and this city has been here for MILLENNIA. and what do we
+                have
+                to show for it??? a theocracy that treats faith like a subscription service. "oh you want to live here?
+                better be loyal to the Pantheon or else"
+            </p>
+            <p>
+                i'm old enough to remember before the Church ran everything. yeah Ohsa was messy. conflicts everywhere.
+                but at least i could <span class="emphasis">choose</span> things??? now it's all "mandatory faith" this
+                and
+                "loyalty oath" that. miss one blessing ceremony and suddenly you're a heretic. A HERETIC. for sleeping
+                in.
+                ridiculous
+            </p>
+            <p>
+                everyone just accepts it too!!! they're like "oh but we have peace now" and i'm like DO WE THOUGH.
+                because last i checked the outer districts are basically lawless wastelands while the Church district
+                has guards every five feet. that's not peace that's just ignoring half the city
+            </p>
+        </article>
+
+        <article class="blog-post">
+            <h2>wizard registration is a SCAM</h2>
+            <p class="date">friday? or maybe still thursday</p>
+            <p>
+                they want me to REGISTER my magic. like it's a pet or something. "oh please sir Church sir can i please
+                do the magic i've been studying for decades???" <span class="emphasis">Obedience</span> they call it.
+                i call it CONTROL
+            </p>
+            <p>
+                report your research. attend the ceremonies. bow and scrape and pretend like they're doing us a favor.
+                i can cast spells that would make their heads spin (not literally) (well maybe literally) (i haven't
+                tried)
+                and they want me to ask PERMISSION???
+            </p>
+            <p>
+                what would Archmage Minoph think huh??? the person who FOUNDED THIS CITY. probably rolling in their
+                mysterious disappearance grave. the Heroes of Union didn't vanish for this. they vanished because
+                they saw what was coming and noped out. smart honestly
+            </p>
+            <p>
+                Vyrodin is just a big monument to <span class="emphasis">hypocrisy</span> now. "city of unity" they call
+                it.
+                more like city of "do what we say or suffer"
+            </p>
+        </article>
+
+        <article class="blog-post">
+            <h2>connecting dots that probably shouldn't be connected but HEAR ME OUT</h2>
+            <p class="date">time is a construct anyway</p>
+            <p>
+                the crime in the bad districts??? INTENTIONAL. keep everyone fighting each other and they won't notice
+                the Church owns like half the city. it's genius in an evil way. diabolical even
+            </p>
+            <p>
+                my Arcslate keeps glitching when i type certain words. "corrupt" makes it freeze. "theocracy" makes it
+                restart. coincidence??? I THINK NOT. they're in the M.A.W. watching everything. hi Church people reading
+                this. your robes look silly
+            </p>
+            <p>
+                anyway i'm just a wizard. doing wizard things. definitely not criticizing the government. just
+                observing.
+                making observations. very normal wizard observations about how everything is suspicious and nothing
+                makes sense
+            </p>
+            <p>
+                if this is my last post it's because my scroll "broke" like Torvik's. or i "moved away suddenly".
+                or i "decided to join a monastery". none of which are things i would do. so if you see that you'll know
+            </p>
+            <p>
+                ok i need to go. i think i heard something. probably nothing. definitely nothing. just the wind.
+                in my apartment. on the fifth floor. with all the windows closed. totally normal wizard paranoia
+            </p>
+        </article>
+
+        <footer>
+            <p>⚡ this is just a wizard blog nothing to see here ⚡</p>
+            <p>definitely not a fan of the current situation but what can you do right??? haha. ha.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
